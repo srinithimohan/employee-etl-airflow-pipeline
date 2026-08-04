@@ -1,0 +1,13 @@
+# Virtual environment - each person creates their own, never shared
+airflow_venv/
+
+# Airflow's local runtime data - logs, database, generated passwords
+airflow_home/
+
+# Python clutter
+__pycache__/
+*.pyc
+
+# Regenerated data files - anyone can produce these by running the pipeline
+data/staging/*.csv
+data/final/*.csv
